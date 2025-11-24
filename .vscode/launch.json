@@ -9,6 +9,7 @@
             "type": "debugpy",
             "request": "launch",
             "program": "C:\\Users\\user\\Desktop\\Yakir Avner\\SmartGalshanAnalytics(v0.0.2)\\SG-ExcelAnalytics\\main.py",
+            "cwd": "C:\\Users\\user\\Desktop\\Yakir Avner\\SmartGalshanAnalytics(v0.0.2)\\SG-ExcelAnalytics",
             "console": "integratedTerminal",
             "args": [
                 "--device_IP", 

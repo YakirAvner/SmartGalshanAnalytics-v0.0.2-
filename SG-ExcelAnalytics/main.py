@@ -29,7 +29,10 @@ def connect_to_devices(devices):
 if __name__ == "__main__":
     devices = parse_device()
     connect_to_devices(devices)
-    ipdc = ipdc(devices)
+    dnl = list(devices.keys())
+    dipl = list(devices.values())
+    ipdc = ipdc(dnl, dipl)
+    ipdc.connect_to_SGPhone()
     # connector = dbc()
     # connector.load_databases()  # fills df and writes data.csv
     # connector.save_csv('data.csv')  # saves data.csv
